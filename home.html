@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/center.css" />
+    <!-- idk of any other better way to do this, so for now i have just a huge lot of javascript files -->
+    <script src="/js/script.js" defer></script>
+    <script src="/js/shade.js" defer></script>
+    <script src="/js/delaylink.js" defer></script>
+    <script src="/js/buttonnoises.js" defer></script>
+    <script src="/js/check4firefox.js" defer></script>
+  </head>
+  <div class="cover" id="cover"></div>
+
+  <body>
+    <img
+      src="https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Flogo.png?v=1612822998936"
+      width="100%"
+      onclick="javascript:window.location=('/nyanfurret.html')"
+    />
+    <br />
+    <a href="javascript:delay('/test.html')" class="button">test</a>
+    <a href="javascript:delay('/projects.html')" class="button">projects</a>
+    <a
+      href="javascript:delay('https://discords.com/bio/p/frosDfurret')"
+      class="button"
+      >discord</a
+    >
+  </body>
+
+  <div style="opacity: 0%" id="foxText">
+    <br />
+    Firefox detected! Please
+    <a href="javascript:delay('/firefox.html')" class="textlink">click here</a>
+    for more info.
+  </div>
+</html>

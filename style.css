@@ -1,0 +1,119 @@
+/* a. */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;600;800&display=swap");
+html {
+  background-color: #000000;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* {
+  cursor: url(
+      https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Ffourd.cur?v=1627885410676
+    ),
+    auto !important;
+}*/
+
+.cover {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  transition: opacity 500ms;
+}
+
+.return {
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  padding-left: 0%;
+  padding-right: 0;
+}
+
+a {
+}
+
+a:visited {
+  color: inherit;
+}
+
+a.button {
+  outline: 2px solid white;
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+a.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.homebtn {
+  position: absolute;
+  font-size: 40px;
+  padding-bottom: 10px;
+  top: 30px;
+  left: 30px;
+  margin-left: 5%;
+}
+
+a.homebtn {
+  outline: 2px solid white;
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+a.homebtn:hover {
+  background-color: white;
+  color: black;
+}
+
+a.textlink:link,
+a.textlink:visited {
+  transition-property: color;
+  transition-duration: 200ms;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: black;
+  color: #74c0e0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a.textlink:hover {
+  color: white;
+}
+
+/* for custom scroll bar: */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
