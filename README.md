@@ -5,6 +5,8 @@ Javascript anyone? Well, it's something I learned (partially, imagine learning h
 <h2>
   TODO
 </h2>
-- Finish Projects page
-- Add actual content
-- Upload and Replace Glitch image files to Github
+* Finish Projects page
+<br>
+* Add actual content
+<br>
+* Upload and Replace Glitch image files to Github
