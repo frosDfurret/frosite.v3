@@ -9,4 +9,4 @@ Javascript anyone? Well, it's something I learned (partially, imagine learning h
 <br>
 * Add actual content
 <br>
-* Upload and Replace Glitch image files to Github
+* <strike>Upload and Replace Glitch image files to Github</strike>
