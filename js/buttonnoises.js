@@ -2,15 +2,15 @@ const link = document.getElementsByClassName("button");
 const textlink = document.getElementsByClassName("textlink");
 const homebtn = document.getElementById("homebtn");
 var hoverSound = new Audio(
-  "https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Fhover.wav?v=1627888365361"
+  "/assets/aud/hover.wav"
 );
 
 var selectSound = new Audio(
-  "https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Fselect.wav?v=1627888365393"
+  "/assets/aud/select.wav"
 );
 
 var beckSound = new Audio(
-  "https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Fbeck.wav?v=1627962875272"
+  "/assets/aud/beck.wav"
 );
 
 function hover() {
