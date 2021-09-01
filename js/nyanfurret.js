@@ -1,5 +1,5 @@
 var music = new Audio(
-  "https://cdn.glitch.com/e1c3d8b5-22bd-497f-8ad1-f179ddfa190d%2Fnyanfurret.wav?v=1628487146527"
+  "/assets/aud/nyanfurret.wav"
 );
 const timer = document.getElementById("timer")
 const furret = document.getElementById("furret")
